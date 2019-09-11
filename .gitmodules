@@ -1,0 +1,3 @@
+[submodule "thirdparty/LightingIO"]
+	path = thirdparty/LightingIO
+	url = https://github.com/HuanGong/LightingIO.git
