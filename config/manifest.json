@@ -1,0 +1,29 @@
+{
+  "workers": 0,
+  "ioloops": 2,
+  "work_on_io": true,
+  "server": [
+    {
+      "addr":"http://127.0.0.1:5005"
+    },
+    {
+      "addr":"raw://127.0.0.1:5006"
+    }
+  ],
+  "client": [
+  ],
+  "counter": [
+    {
+      "name":"day",
+      "span": 7
+    },
+    {
+      "name":"week",
+      "span": 4
+    },
+    {
+      "name":"month",
+      "span": 6
+    }
+  ]
+}
